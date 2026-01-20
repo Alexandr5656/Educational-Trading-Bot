@@ -1,22 +1,5 @@
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -24,9 +7,6 @@
 [![project_license][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/Alexandr5656/Educational-Trading-Bot">
@@ -49,9 +29,6 @@
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -77,41 +54,30 @@
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `Alexandr5656`, `Educational-Trading-Bot`, `twitter_handle`, `Alex-Burbano`, `email_client`, `email`, `Trading Bot for Learning`, `I wanted to create a project that hits most aspects of Hedgefund development space. From tooling to trading to FPGA development just to learn as much as possible`, `project_license`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![C++][cpp-shield]][cpp-url]
+* [![Python][python-shield]][python-url]
+* [![FPGA][fpga-shield]][fpga-url]
+* [![Kubernetes][kubernetes-shield]][kubernetes-url]
+* [![Raspberry Pi][raspberrypi-shield]][raspberrypi-url]
 
-* C++
-* Python
-* FPGA development
-* kubernutes
-* 
+## Goals
+Over all i want this to be a platform for trading that has many compenets of plug and play usage. By this I mean the platform has to be End2End with ability to develop different compennts at the same time while also testing others independently or even chaining some together. I want this to be End 2 End from data ingestion to testing decisions made by models.
+### Models
+We need to develop AI models that can deal with time series data. We also need to create a sentiment analysis model. I also think it would be funny to develop a bot that would take in reddit and other social media data for trading decisions.
+### Data ingestions
+ML and AI models all suffer from the bottle neck of clean data. When data comes it has to be cleaned of anything on needed and normalized for the model to take in. We also need to be able to take in data from a multitude of places that will not follow the same strucutre. For example reddit posts will be obvisouly different from how weather data is structured. Even weather data across different websites as well. Some how all this data has to be structured into some kind of similar format and cleaned as well. This all has to be done as fast as possible as well as the model can only trade based on data its getting and and will only be as fast as its cleaning.
+### Dev-Ops
+Dev-ops is a pivotal point of any sofwtware development. This will be working on the infrastructure of the whole project. There are many points of the project that need to be worked on. From the docker structure of the project to creating pipelines for automating testing. This section will also be in charge of automating many different pivotal points of the project like flashing the FPGA for trading strategies.
+### Testing Platform
+Testing has to be done at all stages of the project and be modular enough to be able to test all points of the project. From testing to see if the data cleaning strategies work to testing if the models work based on old but confirmed cleaned data. Maybe eventually also be helpful with debugging models or visualizing data ingested.
+### FPGA usage
+The FPGA is the coolest part of the project in my opinion. For reference and FPGA is short for a Field Programable Gate Array. This basically means a programmable circuit. In high frequency firms they use FPGA to create instantous trades based on two things. The data thats coming in and what strategies either the trader decides on or the models decide on. From there they program the strats into circuits and use them throughout the day to make decisions in pico seconds.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -148,9 +114,6 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -159,9 +122,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ROADMAP -->
 ## Roadmap
 
 - [ ] Feature 1
@@ -173,9 +133,6 @@ See the [open issues](https://github.com/Alexandr5656/Educational-Trading-Bot/is
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -197,18 +154,12 @@ Don't forget to give the project a star! Thanks again!
   <img src="https://contrib.rocks/image?repo=Alexandr5656/Educational-Trading-Bot" alt="contrib.rocks image" />
 </a>
 
-
-
-<!-- LICENSE -->
 ## License
 
 Distributed under the project_license. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
@@ -217,9 +168,6 @@ Project Link: [https://github.com/Alexandr5656/Educational-Trading-Bot](https://
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * []()
@@ -232,33 +180,42 @@ Project Link: [https://github.com/Alexandr5656/Educational-Trading-Bot](https://
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Alexandr5656/Educational-Trading-Bot.svg?style=for-the-badge
 [contributors-url]: https://github.com/Alexandr5656/Educational-Trading-Bot/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/Alexandr5656/Educational-Trading-Bot.svg?style=for-the-badge
 [forks-url]: https://github.com/Alexandr5656/Educational-Trading-Bot/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/Alexandr5656/Educational-Trading-Bot.svg?style=for-the-badge
 [stars-url]: https://github.com/Alexandr5656/Educational-Trading-Bot/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/Alexandr5656/Educational-Trading-Bot.svg?style=for-the-badge
 [issues-url]: https://github.com/Alexandr5656/Educational-Trading-Bot/issues
+
 [license-shield]: https://img.shields.io/github/license/Alexandr5656/Educational-Trading-Bot.svg?style=for-the-badge
-[license-url]: https://github.com/Alexandr5656/Educational-Trading-Bot/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/Alex-Burbano
-[product-screenshot]: images/screenshot.png
+[license-url]: https://github.com/Alexandr5656/Educational-Trading-Bot/blob/main/LICENSE
+
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin
+[linkedin-url]: https://www.linkedin.com/in/alex-burbano/
+
 <!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+<!-- TECHNOLOGY SHIELDS -->
+
+[cpp-shield]: https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white
+[cpp-url]: https://isocpp.org/
+
+[python-shield]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff
+[python-url]: https://www.python.org/
+
+[fpga-shield]: https://img.shields.io/badge/FPGA-00599C?logo=intel&logoColor=white
+[fpga-url]: https://www.intel.com/content/www/us/en/products/details/fpga.html
+
+[kubernetes-shield]: https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white
+[kubernetes-url]: https://kubernetes.io/
+
+[raspberrypi-shield]: https://img.shields.io/badge/Raspberry%20Pi-C51A4A?logo=raspberrypi&logoColor=white
+[raspberrypi-url]: https://www.raspberrypi.com/
+

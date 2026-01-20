@@ -1,12 +1,12 @@
 <a id="readme-top"></a>
-
+<!--
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+-->
 <br />
 <div align="center">
   <a href="https://github.com/Alexandr5656/Educational-Trading-Bot">
@@ -85,49 +85,37 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* Docker Installation
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/Alexandr5656/Educational-Trading-Bot.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin Alexandr5656/Educational-Trading-Bot
-   git remote -v # confirm the changes
-   ```
+1. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!--
 ## Usage
-
+-->
+<!--
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+For more examples, please refer to the [Documentation](https://example.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+-->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] MVP 1 - Trading Platform
+    - [ ] Data Ingestion
+    - [ ] Data Cleaning
+    - [ ] Model Creation
+- [ ] MVP 2 - Performance Optimization
+    - [ ] Automating Tools
+    - [ ] Performance Testing Tools
+    - [ ] Testing Tools
+- [ ] MVP 3 - Into The Sky
+    - [ ] FPGA Development Onboarding
+    - [ ] Cloud Trading
+    - [ ] Initial Capital?
 
 See the [open issues](https://github.com/Alexandr5656/Educational-Trading-Bot/issues) for a full list of proposed features (and known issues).
 
@@ -135,18 +123,11 @@ See the [open issues](https://github.com/Alexandr5656/Educational-Trading-Bot/is
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+If you want to join this project put out a pull request adding your name to the contributors below. This is going to start as an educational project with the trading being done with paper trading API's. Once the platform is built and we're in MVP-3 I'll introduce the idea of using real money for the trading. But before that I want it to be clear that this is to be used as a place to learn the aspects of coding at large trading firms. This can help you with job search and future employment as these are all aspects of the jobs I've interviewed for and that interviewers usually looks for. I also don't want you to worry about not knowing a part if your interested in it as we will all teach each other as we go.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+### Contributors
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Alex Burbano
 
 ### Top contributors:
 
@@ -162,17 +143,9 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Alex Burbano - [@Linkedin](https://www.linkedin.com/in/alex-burbano/) - Alex@Burbano.me
 
 Project Link: [https://github.com/Alexandr5656/Educational-Trading-Bot](https://github.com/Alexandr5656/Educational-Trading-Bot)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,7 +154,7 @@ Project Link: [https://github.com/Alexandr5656/Educational-Trading-Bot](https://
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- MARKDOWN LINKS & IMAGES -->
-
+<!--
 [contributors-shield]: https://img.shields.io/github/contributors/Alexandr5656/Educational-Trading-Bot.svg?style=for-the-badge
 [contributors-url]: https://github.com/Alexandr5656/Educational-Trading-Bot/graphs/contributors
 

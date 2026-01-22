@@ -128,6 +128,7 @@ If you want to join this project put out a pull request adding your name to the 
 ### Contributors
 
 - Alex Burbano
+- [Ian Dunn](https://github.com/iantdunn)
 
 ### Top contributors:
 

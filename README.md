@@ -102,12 +102,14 @@ Use this space to show useful examples of how a project can be used. Additional 
 For more examples, please refer to the [Documentation](https://example.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 -->
+
 ## Roadmap
 
 - [ ] MVP 1 - Trading Platform
     - [ ] Data Ingestion
     - [ ] Data Cleaning
     - [ ] Model Creation
+    - [ ] Back Testing
 - [ ] MVP 2 - Performance Optimization
     - [ ] Automating Tools
     - [ ] Performance Testing Tools

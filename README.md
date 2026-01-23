@@ -132,6 +132,7 @@ If you want to join this project put out a pull request adding your name to the 
 - Alex Burbano
 - [Ian Dunn](https://github.com/iantdunn)
 - Rolland Muzeya
+- Mack Leonard
 
 ### Top contributors:
 

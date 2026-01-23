@@ -133,6 +133,7 @@ If you want to join this project put out a pull request adding your name to the 
 - [Ian Dunn](https://github.com/iantdunn)
 - Rolland Muzeya
 - Mack Leonard
+- [Cole Davis](https://github.com/cole-dav)
 
 ### Top contributors:
 
